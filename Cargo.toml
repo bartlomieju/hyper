@@ -34,6 +34,7 @@ tracing = { version = "0.1", default-features = false, features = ["std"] }
 pin-project-lite = "0.2.4"
 tower-service = "0.3"
 tokio = { version = "1", features = ["sync"] }
+stokio = { path = "../stokio" }
 want = "0.3"
 
 # Optional

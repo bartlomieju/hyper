@@ -153,6 +153,9 @@ pub mod conn;
 #[cfg(feature = "tcp")]
 mod tcp;
 
+#[cfg(feature = "tcp")]
+pub mod stokio_tcp;
+
 pub use self::server::Server;
 
 cfg_feature! {
